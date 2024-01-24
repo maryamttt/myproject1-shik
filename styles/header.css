@@ -1,0 +1,162 @@
+.header{
+  height: 120px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 100;
+  background-color: white;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.left-section {
+  font-family: Outfit, Arial;
+  font-weight: 300;
+  font-size: 50px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  margin-left: 70px;
+  margin-top: 36px;
+}
+
+.left-section:hover {
+  color: rgb(3, 3, 109);
+}
+
+  .middle-section {
+  font-family: Outfit, Arial;
+  font-weight: 300;
+  font-size: 17px;
+  color: rgb(134, 119, 119);
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 110px;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.category{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.category:hover {
+text-decoration: underline;
+color: black;
+}
+
+.search-bar {
+margin-top: -13px;
+height: 40px;
+width: 250px;
+
+border-top-left-radius: 30px;
+border-bottom-left-radius: 30px;
+border-width: 0.5px;
+border-style: solid;
+border-color: rgb(206, 188, 188);
+border-right-color: white;
+
+font-family: Outfit, Arial;
+font-size: 16px;
+font-weight: 300;
+padding-left: 15px;
+}
+
+.search-bar:hover{
+  border-color: rgb(192, 176, 176);
+  border-width: 1.9px;
+}
+
+.search-button {
+margin-top: -13px;
+height: 44px;
+width: 50px;
+cursor: pointer;
+
+border-width: 0.5px;
+border-style: solid;
+border-color: rgb(206, 188, 188);
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+
+background-color: white;
+}
+
+.search-button:hover{
+  background-color: rgb(231, 229, 229);;
+}
+
+.search {
+height: 20px;
+}
+
+.right-section {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: Outfit, Arial;
+  margin-top: 70px;
+  margin-right: 40px;
+  width: 400px;
+}
+
+.right-section-text {
+font-family: Outfit, Arial;
+font-weight: 300;
+color: grey;
+display: flex;
+justify-content: space-between;
+cursor: pointer;
+
+margin-right: 50px;
+}
+
+.right-section-text:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.right-section-icons-1 {
+width: 70px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+margin-right: 40px;
+margin-top: -10px;
+}
+
+.button-icon{
+  width: 40px;
+  height: 38px;
+  margin-right: 10px;
+
+  border-radius: 50px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: rgb(185, 184, 184);
+  background-color: rgb(247, 246, 246);
+  cursor: pointer;
+}
+
+.button-icon:hover{
+  background-color: rgb(231, 229, 229);
+}
+
+.right-section-icons {
+display: flex;
+flex-direction: row;
+margin-right: 16px;
+
+width: 25px;
+}
